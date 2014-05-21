@@ -16,7 +16,6 @@ class TransformScript(ScriptHook):
 
     def execute(self):
         self.log.info("Executing Transform script")
-        i = 0
         while self.input.hasNext():
             data = self.input.next()
             filename = data['filename']
