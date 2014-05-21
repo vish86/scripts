@@ -1,3 +1,8 @@
+""" ImageToBase64.py: Convert images stored on the file system to Base64."""
+
+__author__ = "Vish Srinivasan"
+__customer__ = "Netflix"
+
 from com.snaplogic.scripting.language import ScriptHook
 from com.snaplogic.scripting.language.ScriptHook import *
 import base64 as base64
